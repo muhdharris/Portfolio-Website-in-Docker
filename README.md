@@ -55,18 +55,14 @@ Ensure the following are installed on your system:
 2. Build and start the containers:
     ```bash
     docker-compose up --build
-3. Access the project:
+3. Access the application:
+   - Frontend: [http://localhost:8080](http://localhost:8080)
+   - Backend API: [http://localhost:3000/api/data](http://localhost:3000/api/data)
 
     Frontend:
-    ```bash
-    http://localhost:8080
-    ```
     This is where the website is hosted. You can view  the homepage, navigate to the about and contact sections, and see dynamic data displayed from the backend.
 
    Backend API: 
-   ```bash
-   http://localhost:3000/api/data
-   ```
    This endpoint provides the API response, which the frontend fetches to display dynamic content:
    ```bash
    {
@@ -75,10 +71,40 @@ Ensure the following are installed on your system:
    }
    ```
 
-4. Stop the containers when you're done:
-     ```bash
-     docker-compose down
-     ```
+4. Run containers in detached mode:
+   ```bash
+   docker-compose up -d
+   ```
+
+5. Stop the containers:
+   ```bash
+   docker-compose down
+   ```
+
+4. Run containers in detached mode:
+   ```bash
+   docker-compose up -d
+   ```
+
+5. Stop the containers:
+   ```bash
+   docker-compose down
+   ```
+---
+### Optional: Push to Docker Hub
+1. Tag and push the images:
+   ```bash
+   docker tag frontend:latest yourdockerhubusername/frontend
+   docker push yourdockerhubusername/frontend
+   docker tag backend:latest yourdockerhubusername/backend
+   docker push yourdockerhubusername/backend
+   ```
+
+2. Run from Docker Hub:
+   ```bash
+   docker run -d -p 8080:80 yourdockerhubusername/frontend
+   docker run -d -p 3000:3000 yourdockerhubusername/backend
+   ```
 ---
  ## Features
 - **Responsive Design**: The website is designed to work on both desktop and mobile devices.
