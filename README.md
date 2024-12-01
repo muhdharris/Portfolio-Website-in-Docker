@@ -115,4 +115,8 @@ curl http://localhost:3000/api/data
 ```bash
 docker-compose logs
 ```
+---
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
