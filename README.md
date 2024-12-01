@@ -1,13 +1,13 @@
-# Portfolio Website in Docker
+# Website in Docker
 
-This project is a **Portfolio Website** hosted in **Docker** containers, created as part of a learning exercise for a web development course. It showcases a fully responsive frontend and a basic backend API, all running in containerized environments.
+This project is a **Website** hosted in **Docker** containers, created as part of a learning exercise for a web development course. It showcases a fully responsive frontend and a basic backend API, all running in containerized environments.
 
 ---
 
 ## Overview
 
 This project demonstrates:
-- A **responsive portfolio website** created using HTML, CSS, and JavaScript.
+- A **responsive website** created using HTML, CSS, and JavaScript.
 - A **backend API** built with Node.js to serve dynamic content.
 - The use of **Docker** to containerize the frontend and backend.
 - **NGINX** as a web server for hosting static frontend files.
@@ -61,7 +61,7 @@ Ensure the following are installed on your system:
     ```bash
     http://localhost:8080
     ```
-    This is where the portfolio website is hosted. You can view  the homepage, navigate to the about and contact sections, and see dynamic data displayed from the backend.
+    This is where the website is hosted. You can view  the homepage, navigate to the about and contact sections, and see dynamic data displayed from the backend.
 
    Backend API: 
    ```bash
@@ -70,7 +70,7 @@ Ensure the following are installed on your system:
    This endpoint provides the API response, which the frontend fetches to display dynamic content:
    ```bash
    {
-     "message": "Welcome to my Portfolio!",
+     "message": "Welcome to my website!",
      "year": 2024
    }
    ```
@@ -81,7 +81,7 @@ Ensure the following are installed on your system:
   ```
 ---
  ## Features
-- **Responsive Design**: The portfolio is designed to work on both desktop and mobile devices.
+- **Responsive Design**: The website is designed to work on both desktop and mobile devices.
 - **Dynamic Data**: The website fetches data from a backend API, allowing you to display dynamic content.
 - **Containerized Application**: Both the frontend and backend are containerized using Docker, making the setup portable and easy to deploy.
 ---
@@ -91,7 +91,7 @@ You can customize the wesite by modifying the following files:
 
 - **Frontend:**
 
-  - index.html: The homepage of the portfolio.
+  - index.html: The homepage of the website.
   - about.html: The About Me page.
   - contact.html: The Contact page.
   - style.css: Modify the website's design and layout.
