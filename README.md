@@ -19,3 +19,33 @@ It serves as an example of combining **web development** and **containerization 
 
 ## Project Structure
 
+
+---
+
+## Technologies Used
+
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Node.js, Express.js
+- **Web Server**: NGINX
+- **Containerization**: Docker, Docker Compose
+- **Version Control**: Git & GitHub
+
+---
+
+## How to Run the Project
+
+### Prerequisites
+
+Ensure the following are installed on your system:
+- **Docker**: [Install Docker](https://www.docker.com/get-started)
+- **Docker Compose**: Comes bundled with Docker Desktop.
+
+---
+
+### Steps to Run
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/portfolio-website.git
+   cd portfolio-website
+
