@@ -54,8 +54,8 @@ Ensure the following are installed on your system:
    docker-compose up --build
    
 3. Access the project:
-   Frontend: http://localhost:8080
+   **Frontend**: http://localhost:8080
    This is where the portfolio website is hosted. You can view the homepage, navigate to the about and contact sections, and see dynamic data displayed from the       backend.
-   Backend API: http://localhost:3000/api/data
+   **Backend API**: http://localhost:3000/api/data
    This endpoint provides the API response, which the frontend fetches to display dynamic content.
 
