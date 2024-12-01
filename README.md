@@ -76,9 +76,9 @@ Ensure the following are installed on your system:
    ```
 
 4. Stop the containers when you're done:
-  ```bash
-  docker-compose down
-  ```
+     ```bash
+     docker-compose down
+     ```
 ---
  ## Features
 - **Responsive Design**: The website is designed to work on both desktop and mobile devices.
