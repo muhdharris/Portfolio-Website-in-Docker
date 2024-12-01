@@ -70,13 +70,17 @@ Ensure the following are installed on your system:
      "year": 2024
    }
    ```
+   Output in the Browser:
+   The div with the ID api-data will be updated with the message:
+   ```bash
+   Welcome to my website!
 
-4. Run containers in detached mode:
+5. Run containers in detached mode:
    ```bash
    docker-compose up -d
    ```
 
-5. Stop the containers:
+6. Stop the containers:
    ```bash
    docker-compose down
    ```
