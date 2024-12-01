@@ -63,17 +63,17 @@ Ensure the following are installed on your system:
     ```
     This is where the portfolio website is hosted. You can view  the homepage, navigate to the about and contact sections, and see dynamic data displayed from the backend.
 
-Backend API: 
-```bash
-http://localhost:3000/api/data
-```
-This endpoint provides the API response, which the frontend fetches to display dynamic content:
-```bash
-{
-  "message": "Welcome to my Portfolio!",
-  "year": 2024
-}
-```
+   Backend API: 
+   ```bash
+   http://localhost:3000/api/data
+   ```
+   This endpoint provides the API response, which the frontend fetches to display dynamic content:
+   ```bash
+   {
+     "message": "Welcome to my Portfolio!",
+     "year": 2024
+   }
+   ```
 
 4. Stop the containers when you're done:
   ```bash
