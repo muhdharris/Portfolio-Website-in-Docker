@@ -49,3 +49,12 @@ Ensure the following are installed on your system:
    git clone https://github.com/yourusername/portfolio-website.git
    cd portfolio-website
 
+2. Build and start the containers:
+   ```bash
+   docker-compose up --build
+   
+3. Access the project:
+
+   Frontend: http://localhost:8080
+   Backend API: http://localhost:3000/api/data
+
